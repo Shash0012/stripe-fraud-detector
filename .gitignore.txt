@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.vscode/
+*.code-workspace
+
+# Data and models (comment out if needed in version control)
+data/
+models/
