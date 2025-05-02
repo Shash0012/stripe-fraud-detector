@@ -18,7 +18,8 @@ render_header()
 # -----------------------------
 # Load the trained ML model
 # -----------------------------
-model = joblib.load(r"C:\Users\shash\Downloads\Stripe_Fraud_Detection_Project\models\fraud_detection_model_smote.pkl")
+model = joblib.load("models/fraud_detection_model_smote.pkl")
+
 
 # The required feature order (must match model training)
 FEATURE_ORDER = ['Time'] + [f"V{i}" for i in range(1, 29)] + ['Amount']
